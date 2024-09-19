@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Logo from "../../Assests/Logo.svg";
 import Vector12 from "../../Assests/Vector 12.png";
 const Navbar = () => {
-  // State to control the side drawer
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   // Toggle drawer
